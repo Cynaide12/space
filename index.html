@@ -2,7 +2,6 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel = 'stylesheet' href = '.\assets\home\homecss.css' type = 'text/css'>
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
 
@@ -18,36 +17,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
  
-  
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
   <title>Frontend Mentor | Space tourism website</title>
 </head>
 <body>
   <header>
-  <!-- <div class = 'inspector-header'>
-    <img src = '.\assets\shared\logo.svg'> 
-   <div class = 'header-text-container'>
-    <ul class = 'ul-nav'>
-      <li class = 'nav-li'><span class = 'nav-num'>00</span><span class = 'nav-text'> HOME</span></li>
-      <li class = 'nav-li'><span class = 'nav-num'>01</span><span class = 'nav-text'> DESTINATION</span></li>
-      <li class = 'nav-li'><span class = 'nav-num'>02</span><span class = 'nav-text'> CREW</span></li>
-      <li class = 'nav-li'><span class = 'nav-num'>03</span><span class = 'nav-text'> TECHNOLOGE</span></li>
-    </ul>
-  </div> 
-</div>
-</header>
-  <div class = 'text-container-center'>
-  <div class = 'text' id = 'travel'>SO, YOU WANT TO TRAVEL TO</div>
-  <div class = 'text' id = 'space'>SPACE</div>
-  <div class = 'text' id = 'face'>Let’s face it; if you want to go to space, you might as well genuinely go to 
-  outer space and not hover kind of on the edge of it. Well sit back, and relax 
-  because we’ll give you a truly out of this world experience!</div>
-</div>
-
-  <div class = 'explore'>
-    <div class = 'text' id = 'explore'>EXPLORE</div>
-  </div> -->
   <nav class = 'nav'>
     <div class = 'inspector-nav'>
       <div class = 'img-nav'>
@@ -79,8 +55,62 @@
         </li>
       </ul>
     </div>
+
+    <button class  = 'nav-toggle'>
+      <img 
+      src = '.\assets\shared\icon-hamburger.svg'
+      width="24"
+      height="21">
+    </button>
+
     </div>
+
   </nav>
+
+  <aside>
+    <div class="nav-side">
+      <button id="navClose" class="closed">
+        <img
+          src="./assets/shared/icon-close.svg"
+          alt="Close"
+          width="19"
+          height="19"
+        />
+      </button>
+
+      <ul class="nav-side-list">
+        <li class="nav-list-item">
+          <a
+            href="index.html"
+            class="nav-side-link text-nav uppercase side-active"
+          >
+            <span class = 'num'>00</span> 
+            <span class = 'text'>home</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="destination.html" class="nav-side-link text-nav uppercase">
+            <span class = 'num'>01</span>
+            <span class = 'text'>destination</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="crew.html" class="nav-side-link text-nav uppercase">
+            <span class = 'num'>02</span>
+            <span class = 'text'>crew</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="technology.html" class="nav-side-link text-nav uppercase">
+            <span class = 'num'>03</span>
+            <span class = 'text'>technology</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+  <script src = 'assets/home/homejs.js'></script>
+
 </header>
 <section class = 'home'>
   <div class = 'text-block-space'>
