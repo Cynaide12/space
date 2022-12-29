@@ -2,7 +2,7 @@
   body{
     margin: 0px;
     background-image: url(../home/background-home-desktop.f4zU4.jpg);
-    background-position: center center;
+    background-position: center;
     background-size:cover;
     width: 100vw;
     height: 100vh;
@@ -107,13 +107,12 @@
     justify-content: flex-end;
     visibility: hidden;
     position: relative;
-    overflow: hidden;
   }
   .nav-side{
-    box-sizing: border-box;
-     width: 0; 
+    /* box-sizing: border-box; */
+    width: 0; 
     height: 100vh;
-    position: absolute;
+    position: fixed;
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(40.7742px);
     display: flex;
@@ -127,6 +126,7 @@
   #nav-anim{
     width:50%;
     transition: 300ms;
+    visibility: visible;
   }
   .nav-side-list{
     width:100%;
@@ -224,6 +224,8 @@
     body{
       margin: 0px;
       background-image: url(../home/background-home-tablet.jpg);
+      background-size: cover;
+      background-position: bottom;
     }
     .home{
       flex-direction: column;
@@ -303,7 +305,12 @@
   } 
   @media screen and (min-height: 800px){
     html{
-      overflow-y:hidden ;
+      overflow-y:  visible
+    }
+  }
+  @media screen and (max-width: 900px){
+    body{
+      background-position: center;
     }
   }
   @media screen and (max-width: 600px){ 
@@ -327,6 +334,8 @@
     }
     body{
       background-image: url(../home/background-home-mobile.jpg);
+      background-size: cover;
+      background-position: bottom; 
     } 
     .text-block-space{
       max-width:327;
@@ -381,6 +390,8 @@
     }
     body{
       background-image: url(../home/background-home-mobile.jpg);
+      background-size: cover;
+      background-position:center;  
     }
     .nav-side .num{
       visibility: hidden;
@@ -400,5 +411,4 @@
   }
 
 }
-
 
