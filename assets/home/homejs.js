@@ -8,7 +8,6 @@ toggle.addEventListener('click', () =>{
   aside.style.visibility = 'visible'
   toggle.style.visibility = 'hidden'
   nav.id = 'nav-anim'
-  nav.style.visibility = 'visible'
   num.style.visibility = 'visible'
 
 })
@@ -16,6 +15,5 @@ closed.addEventListener('click', () =>{
   aside.style.visibility = 'hidden'
   toggle.style.visibility = 'visible';
   nav.id = ''
-  nav.style.visibility = 'hidden'
   num.style.visibility = 'hidden'
 })}
