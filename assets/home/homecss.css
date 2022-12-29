@@ -4,6 +4,9 @@
     background-image: url(../home/background-home-desktop.f4zU4.jpg);
     background-position: center;
     background-size:cover;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
   }
   html{
     display: block; 
@@ -85,7 +88,6 @@
     cursor: pointer;
     background:transparent;
     border:none;
-     /* margin-left: 48vw;  */
     transform: translateX(85vw); 
 
   }
@@ -100,17 +102,16 @@
     background-color: transparent
   }  */
   aside{
-    /* max-width:100vw; */
     height:fit-content;
     display:flex;
     justify-content: flex-end;
     visibility: hidden;
     position: relative;
+    overflow: hidden;
   }
   .nav-side{
     box-sizing: border-box;
      width: 0; 
-    /* display:contents; */
     height: 100vh;
     position: absolute;
     background: rgba(255, 255, 255, 0.04);
@@ -142,7 +143,6 @@
     align-self:flex-end;
     margin-top: 35px;
     margin-right:8%;
-    /* transition: 0ms; */
   }
 
   .home{
@@ -152,8 +152,7 @@
     width: 100%;
     min-height: 100vh;
     position: absolute;
-    /* padding: 0px;
-    margin: 0px; */
+
     
   }
   .text-block-space{
@@ -226,7 +225,7 @@
       margin: 0px;
       background-image: url(../home/background-home-tablet.jpg);
       background-size: cover;
-      background-position: center;
+      background-position: bottom;
     }
     .home{
       flex-direction: column;
@@ -399,7 +398,7 @@
       position: absolute;
     }
   }
- @media (orientation: landscape) and (max-height:600px){
+  @media (orientation: landscape) and (max-height:600px){
     .explore{
     width:70px;
     height:70px;
