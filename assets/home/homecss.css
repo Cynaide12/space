@@ -225,7 +225,7 @@
       margin: 0px;
       background-image: url(../home/background-home-tablet.jpg);
       background-size: cover;
-      background-position: bottom;
+      background-position: center;
     }
     .home{
       flex-direction: column;
@@ -335,7 +335,7 @@
     body{
       background-image: url(../home/background-home-mobile.jpg);
       background-size: cover;
-      background-position: bottom; 
+      background-position: center; 
     } 
     .text-block-space{
       max-width:327;
