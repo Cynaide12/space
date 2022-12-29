@@ -6,18 +6,16 @@ const number = document.querySelectorAll('.nav-side .num')
 for(let num of number){
 toggle.addEventListener('click', () =>{
   aside.style.visibility = 'visible'
-  aside.style.display = 'flex'
   toggle.style.visibility = 'hidden'
   nav.id = 'nav-anim'
+  nav.style.visibility = 'visible'
   num.style.visibility = 'visible'
 
 })
 closed.addEventListener('click', () =>{
   aside.style.visibility = 'hidden'
-  aside.style.position = 'fixed'
   toggle.style.visibility = 'visible';
   nav.id = ''
+  nav.style.visibility = 'hidden'
   num.style.visibility = 'hidden'
-
-
 })}
