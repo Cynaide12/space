@@ -226,6 +226,7 @@
       background-image: url(../home/background-home-tablet.jpg);
       background-size: cover;
       background-position: bottom;
+      overflow:visible
     }
     .home{
       flex-direction: column;
