@@ -2,7 +2,7 @@
   body{
     margin: 0px;
     background-image: url(../home/background-home-desktop.f4zU4.jpg);
-    background-position: center;
+    background-position: center center;
     background-size:cover;
     width: 100vw;
     height: 100vh;
@@ -224,8 +224,6 @@
     body{
       margin: 0px;
       background-image: url(../home/background-home-tablet.jpg);
-      background-size: cover;
-      background-position: center;
     }
     .home{
       flex-direction: column;
@@ -308,11 +306,6 @@
       overflow-y:hidden ;
     }
   }
-  @media screen and (max-width: 900px){
-    body{
-      background-position: center;
-    }
-  }
   @media screen and (max-width: 600px){ 
     html{
       overflow-y: visible;
@@ -334,8 +327,6 @@
     }
     body{
       background-image: url(../home/background-home-mobile.jpg);
-      background-size: cover;
-      background-position: center; 
     } 
     .text-block-space{
       max-width:327;
@@ -390,8 +381,6 @@
     }
     body{
       background-image: url(../home/background-home-mobile.jpg);
-      background-size: cover;
-      background-position:center;  
     }
     .nav-side .num{
       visibility: hidden;
