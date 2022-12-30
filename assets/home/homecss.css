@@ -5,11 +5,13 @@
     background-position: center;
     background-size:cover;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     position: relative;
   }
   html{
     display: block; 
+    /* overflow-x: hidden;  */
+
   }
   html, body{
     overflow-x: hidden; 
@@ -461,14 +463,14 @@
   } 
   html, body{
     max-height: 80%;
-    overflow-y: visible
+    /* overflow-y: visible */
   }
 } 
 
-   @media screen and (min-height: 800px){
-    html{
+   @media only screen  and (min-height: 800px){
+    /* html{
       overflow-y:  visible
-    }
+    } */
   }
   @media screen and (max-width: 900px){
     body{
@@ -476,10 +478,10 @@
     }
   }
   @media screen and (max-width: 600px){ 
-    html{
+    /* html{
       overflow-y: visible;
       overflow-x: hidden;
-    } 
+    }  */
     .home{
       padding-top:0px;
     }
@@ -520,31 +522,31 @@
   } 
   @media screen and (max-width: 490px){ 
 
-    html{
+    /* html{
       overflow-y: visible;
-    }
+    } */
     body{
       background-image: url(../home/background-home-mobile.jpg);
       background-size: cover;
       background-position:center;  
     }
     .explore{
-      width: 150px;
-      height: 150px;
+      min-width: 140px;
+      min-height: 140px;
     }
   }
   @media (orientation: landscape) and (max-height:600px){
     .explore{
-    width: 125px;
-    height:125px;
+    min-width: 125px;
+    min-height:125px;
+    max-width: 125px;
+    max-height:125px;
     font-size: 20px;
     }
     .text-block-space{
       margin-top: 30vh;
     }
-
 }
-
   @media screen and (orientation: landscape) and (max-height: 500px){
     #want{
       font-size: 17px;
@@ -558,7 +560,7 @@
     }
     .explore{
       margin: 0px;
-
     }
   }
+
 
