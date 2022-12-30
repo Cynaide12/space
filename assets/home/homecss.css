@@ -545,4 +545,20 @@
 
 }
 
+  @media screen and (orientation: landscape) and (max-height: 500px){
+    #want{
+      font-size: 17px;
+    }
+    #space{
+      font-size: 70px;
+      line-height: 80px;
+    }
+    #face{
+      font-size: 12px;
+    }
+    .explore{
+      margin: 0px;
+
+    }
+  }
 
