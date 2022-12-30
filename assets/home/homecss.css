@@ -1,4 +1,4 @@
-
+ 
   body{
     margin: 0px;
     background-image: url(../home/background-home-desktop.f4zU4.jpg);
@@ -16,6 +16,7 @@
     padding: 0px;
     min-height: 100vh;
   }
+  /*
   .inspector-nav{
     position: absolute;
     width: 100%;
@@ -91,16 +92,6 @@
     transform: translateX(85vw); 
 
   }
-   /* aside{
-    width:100%;
-    min-height: 100%; 
-    position: absolute; 
-    z-index: 99999;
-    display:flex;
-    justify-content: flex-end;
-    visibility: hidden;
-    background-color: transparent
-  }  */
   aside{
     height:fit-content;
     display:flex;
@@ -109,7 +100,6 @@
     position: relative;
   }
   .nav-side{
-    /* box-sizing: border-box; */
     width: 0; 
     height: 100vh;
     position: fixed;
@@ -143,7 +133,7 @@
     align-self:flex-end;
     margin-top: 35px;
     margin-right:8%;
-  }
+  } */
 
   .home{
     display: flex;
@@ -220,13 +210,12 @@
   .text-block-space, .explore{
     margin-top: 230px;
   }
-  @media screen and (max-width: 1000px) {  
+  /* @media screen and (max-width: 1000px) {  
     body{
       margin: 0px;
       background-image: url(../home/background-home-tablet.jpg);
       background-size: cover;
       background-position: bottom;
-      overflow:visible
     }
     .home{
       flex-direction: column;
@@ -267,8 +256,8 @@
       margin-left: 27px
     }
     .explore{
-      min-width: 225px;
-      min-height: 225px;
+      max-width: 225px;
+      max-height: 225px;
       margin-top: 5%
     }
     #want{
@@ -303,8 +292,8 @@
       max-height: 80%;
       overflow-y: visible
     }
-  } 
-  @media screen and (min-height: 800px){
+  }  */
+  /* @media screen and (min-height: 800px){
     html{
       overflow-y:  visible
     }
@@ -398,11 +387,16 @@
       visibility: hidden;
       position: absolute;
     }
+    .explore{
+      width: 150px;
+      height: 150px;
+    }
   }
   @media (orientation: landscape) and (max-height:600px){
     .explore{
-    width:70px;
-    height:70px;
+    width: 125px;
+    height:125px;
+    font-size: 20px;
     }
     .text-block-space{
       margin-top: 30vh;
@@ -411,5 +405,144 @@
       padding-left: 20px
   }
 
+} */
+
+@media screen and (max-width: 1000px) {  
+  body{
+    margin: 0px;
+    background-image: url(../home/background-home-tablet.jpg);
+    background-size: cover;
+    background-position: bottom;
+  }
+  .home{
+    flex-direction: column;
+    justify-content:flex-start;
+    max-height: 100%;
+  } 
+  .text-block-space{
+    max-height: 334px;
+    max-width: 400px;
+  }
+  .text-block-space, .explore{
+    margin-top: 20vh
+  } 
+  .explore{
+    max-width: 225px;
+    max-height: 225px;
+    margin-top: 5%
+  }
+  #want{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 3.375px;
+  width: 100%;
+  }
+  #space{
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 125px;
+  line-height: 150px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0px
+  }
+  #face{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  color: #D0D6F9;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align:center;
+  margin: 0px
+  } 
+  html, body{
+    max-height: 80%;
+    overflow-y: visible
+  }
+} 
+
+   @media screen and (min-height: 800px){
+    html{
+      overflow-y:  visible
+    }
+  }
+  @media screen and (max-width: 900px){
+    body{
+      background-position: center;
+    }
+  }
+  @media screen and (max-width: 600px){ 
+    html{
+      overflow-y: visible;
+      overflow-x: hidden;
+    } 
+    .home{
+      padding-top:0px;
+    }
+    body{
+      background-image: url(../home/background-home-mobile.jpg);
+      background-size: cover;
+      background-position: bottom; 
+    } 
+    .text-block-space{
+      max-width:327;
+      max-height: 276px;
+      margin-top: 20vh;
+    }
+    #want{
+      font-size: 16px;;
+    }
+    #space{
+      font-size: 80px;
+      max-width: 327px;
+      max-height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #face{
+      font-size: 15px;
+      max-width: 327px;
+      max-height: 276px;
+
+    }
+    .explore{
+      position: relative;
+      width: 175px;
+      height: 175px;
+      font-size: 20px;
+      margin-top: 10vh
+    }
+  } 
+  @media screen and (max-width: 490px){ 
+
+    html{
+      overflow-y: visible;
+    }
+    body{
+      background-image: url(../home/background-home-mobile.jpg);
+      background-size: cover;
+      background-position:center;  
+    }
+    .explore{
+      width: 150px;
+      height: 150px;
+    }
+  }
+  @media (orientation: landscape) and (max-height:600px){
+    .explore{
+    width: 125px;
+    height:125px;
+    font-size: 20px;
+    }
+    .text-block-space{
+      margin-top: 30vh;
+    }
+
 }
+
 
