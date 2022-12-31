@@ -1,248 +1,250 @@
- 
-  body{
-    margin: 0px;
-    background-image: url(../home/background-home-desktop.f4zU4.jpg);
-    background-position: center;
-    background-size:cover;
-    width: 100vw;
-    min-height: 100vh;
-    position: relative;
-  }
-  html{
-    display: block; 
-    /* overflow-x: hidden;  */
-
-  }
-  html, body{
-    overflow-x: hidden; 
-    padding: 0px;
-    min-height: 100vh;
-  }
+body{
+  margin: 0px;
+  background-image: url(../home/background-home-desktop.f4zU4.jpg);
+  background-position: center;
+  background-size:cover;
+  width: 100vw;
+  min-height: 100vh;
+  max-height: 100vh;
+  position: relative;
+}
+html{
+  display: block; 
+}
+html, body{
+  overflow-x: hidden; 
+  padding: 0px;
+  min-height: 100vh;
+}
 
 
-  .home{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 100%;
-    min-height: 100vh;
-    position: absolute;
-
-    
-  }
-  .text-block-space{
-    width: fit-content;
-    max-width: 450px;
-    height: fit-content;
-    max-height: 382px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column
-  }
-  .text-space{
-    width: fit-content;
-    height: fit-content;
-  }
-  #want{
-    text-transform: uppercase;
-    font-family: 'Barlow Condensed';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    letter-spacing: 4.725px;
-    color: #D0D6F9;
-  }
-  #space{
-    margin-top: 13px;
-    font-family: 'Bellefair';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 150px;
-    line-height: 172px;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    text-align: center;;
-    width: 100%;
-  }
-  #face{
-    font-family: 'Barlow';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    color: #D0D6F9;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  }
-  .explore{
-    border-radius: 50%;
-    background-color: #fafafa;
-    width: 274px;
-    height: 274px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Bellefair';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 37px;
-    letter-spacing: 2px;
-    color: #0B0D17;
-    text-transform: uppercase;
-  }
-  .text-block-space, .explore{
-    margin-top: 230px
-  }
- 
-@media screen and (max-width: 1000px) {  
-  body{
-    margin: 0px;
-    background-image: url(../home/background-home-tablet.jpg);
-    background-size: cover;
-    background-position: bottom;
-  }
-  .home{
-    flex-direction: column;
-    justify-content:flex-start;
-    max-height: 100%;
-  } 
-  .text-block-space{
-    max-height: 334px;
-    max-width: 400px;
-  }
-  .text-block-space, .explore{
-    margin-top: 20vh
-  } 
-  .explore{
-    max-width: 225px;
-    max-height: 225px;
-    margin-top: 5%
-  }
-  #want{
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 24px;
-
-  text-align: center;
-  letter-spacing: 3.375px;
+.home{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   width: 100%;
-  }
-  #space{
+  min-height: 100vh;
+  max-height: 100vh;
+  position: absolute;
+}
+.text-block-space{
+  width: fit-content;
+  max-width: 450px;
+  height: fit-content;
+  max-height: 382px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column
+}
+.text-space{
+  width: fit-content;
+  height: fit-content;
+}
+#want{
+  text-transform: uppercase;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #D0D6F9;
+}
+#space{
+  margin-top: 13px;
   font-family: 'Bellefair';
   font-style: normal;
   font-weight: 400;
-  font-size: 125px;
-  line-height: 150px;
+  font-size: 150px;
+  line-height: 172px;
   text-transform: uppercase;
   color: #FFFFFF;
-  margin: 0px
-  }
-  #face{
+  text-align: center;;
+  width: 100%;
+}
+#face{
+  font-family: 'Barlow';
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 25px;
+  font-size: 18px;
+  line-height: 32px;
   color: #D0D6F9;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  text-align:center;
-  margin: 0px
-  } 
-  html, body{
-    max-height: 80%;
-  }
+}
+.explore{
+  border-radius: 50%;
+  background-color: #fafafa;
+  width: 274px;
+  height: 274px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Bellefair';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 37px;
+  letter-spacing: 2px;
+  color: #0B0D17;
+  text-transform: uppercase;
+  border: 0px;
+  cursor: pointer;
+  transition: 500ms;
+  margin-bottom: 75px;
+
+}
+.explore:hover{
+  box-shadow: 0px 0px 0px 75px rgba(255, 255, 255, 0.2);
+  transition: 500ms;
+}
+.text-block-space, .explore{
+  margin-top: 230px
+}
+
+@media screen and (max-width: 1000px) {  
+body{
+  margin: 0px;
+  background-image: url(../home/background-home-tablet.jpg);
+  background-size: cover;
+  background-position: bottom;
+}
+.home{
+  flex-direction: column;
+  justify-content:flex-start;
+  max-height: 100%;
+} 
+.text-block-space{
+  max-height: 334px;
+  max-width: 400px;
+}
+.text-block-space, .explore{
+  margin-top: 20vh
+} 
+.explore{
+  max-width: 225px;
+  max-height: 225px;
+  margin-top: 10vh
+}
+#want{
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+text-align: center;
+letter-spacing: 3.375px;
+width: 100%;
+}
+#space{
+font-family: 'Bellefair';
+font-style: normal;
+font-weight: 400;
+font-size: 125px;
+line-height: 150px;
+text-transform: uppercase;
+color: #FFFFFF;
+margin: 0px
+}
+#face{
+font-weight: 400;
+font-size: 16px;
+line-height: 25px;
+color: #D0D6F9;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+text-align:center;
+margin: 0px
+} 
+html, body{
+  max-height: 80%;
+}
 } 
 
-   @media only screen  and (min-height: 800px){
-  }
-  @media screen and (max-width: 900px){
-    body{
-      background-position: center;
-    }
-  }
-  @media screen and (max-width: 600px){ 
-    .home{
-      padding-top:0px;
-    }
-    body{
-      background-image: url(../home/background-home-mobile.jpg);
-      background-size: cover;
-      background-position: bottom; 
-    } 
-    .text-block-space{
-      max-width:327;
-      max-height: 276px;
-      margin-top: 20vh;
-    }
-    #want{
-      font-size: 16px;;
-    }
-    #space{
-      font-size: 80px;
-      max-width: 327px;
-      max-height: 100px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    #face{
-      font-size: 15px;
-      max-width: 327px;
-      max-height: 276px;
-
-    }
-    .explore{
-      position: relative;
-      width: 175px;
-      height: 175px;
-      font-size: 20px;
-      margin-top: 10vh
-    }
-  } 
-  @media screen and (max-width: 490px){ 
-
-    body{
-      background-image: url(../home/background-home-mobile.jpg);
-      background-size: cover;
-      background-position:center;  
-    }
-    .explore{
-      min-width: 140px;
-      min-height: 140px;
-    }
-  }
-  @media (orientation: landscape) and (max-height:600px){
-    .explore{
-    min-width: 125px;
-    min-height:125px;
-    max-width: 125px;
-    max-height:125px;
-    font-size: 20px;
-    }
-    .text-block-space{
-      margin-top: 30vh;
-    }
-    body{
-      background-image: url('../home/background-home-desktop.jpg');
-      /* background-position: center; */
-    }
+ @media only screen  and (min-height: 800px){
 }
-  @media screen and (orientation: landscape) and (max-height: 500px){
-    #want{
-      font-size: 17px;
-    }
-    #space{
-      font-size: 70px;
-      line-height: 80px;
-    }
-    #face{
-      font-size: 12px;
-    }
-    .text-block-space{
-      margin-top: 150px
-    }
+@media screen and (max-width: 900px){
+  body{
+    background-position: center;
   }
+}
+@media screen and (max-width: 600px){ 
+  .home{
+    padding-top:0px;
+  }
+  body{
+    background-image: url(../home/background-home-mobile.jpg);
+    background-size: cover;
+    background-position: bottom; 
+  } 
+  .text-block-space{
+    max-width:327;
+    max-height: 276px;
+    margin-top: 20vh;
+  }
+  #want{
+    font-size: 16px;;
+  }
+  #space{
+    font-size: 80px;
+    max-width: 327px;
+    max-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #face{
+    font-size: 15px;
+    max-width: 327px;
+    max-height: 276px;
 
+  }
+  .explore{
+    /* position: relative; */
+    width: 175px;
+    height: 175px;
+    font-size: 20px;
+    margin-top: 20vh
+  }
+} 
+@media screen and (max-width: 490px){ 
 
-
-
+  body{
+    background-image: url(../home/background-home-mobile.jpg);
+    background-size: cover;
+    background-position:center;  
+  }
+  .explore{
+    min-width: 140px;
+    min-height: 140px;
+  }
+}
+@media (orientation: landscape) and (max-height:600px){
+  .explore{
+  min-width: 125px;
+  min-height:125px;
+  max-width: 125px;
+  max-height:125px;
+  font-size: 20px;
+  }
+  .text-block-space{
+    margin-top: 30vh;
+  }
+  body{
+    background-image: url('../home/background-home-desktop.jpg');
+    /* background-position: center; */
+  }
+}
+@media screen and (orientation: landscape) and (max-height: 500px){
+  #want{
+    font-size: 17px;
+  }
+  #space{
+    font-size: 70px;
+    line-height: 80px;
+  }
+  #face{
+    font-size: 12px;
+  }
+   .text-block-space{
+    margin-top: 150px
+  } 
+}
