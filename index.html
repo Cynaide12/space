@@ -30,9 +30,11 @@
       <div class = 'img-nav'>
         <img src = 'assets\shared\logo.svg'>
       </div>
+      <div class = 'nav-line'>
+      </div>
       <div class = 'text-block'>
       <ul class = 'text-block-ul'>
-        <li>
+        <li class = 'active'>
           <a href = ''>
             <span class = 'num'>00</span>
             <span class = 'text'> home</span>
@@ -55,7 +57,7 @@
           </a>
         </li>
       </ul>
-    </div>
+    </div>  
 
     <button class  = 'nav-toggle'>
       <img 
@@ -64,11 +66,13 @@
       height="21">
     </button>
 
-    </div>
+  </div>
+
+
 
   </nav>
 
-  <aside>
+   <aside>
     <div class="nav-side">
       <button id="navClose" class="closed">
         <img
@@ -83,26 +87,26 @@
         <li class="nav-list-item">
           <a
             href="index.html"
-            class="nav-side-link text-nav uppercase side-active"
+            
           >
             <span class = 'num'>00</span> 
             <span class = 'text'>home</span>
           </a>
         </li>
         <li class="nav-list-item">
-          <a href="destination.html" class="nav-side-link text-nav uppercase">
+          <a href="destination.html">
             <span class = 'num'>01</span>
             <span class = 'text'>destination</span>
           </a>
         </li>
         <li class="nav-list-item">
-          <a href="crew.html" class="nav-side-link text-nav uppercase">
+          <a href="crew.html">
             <span class = 'num'>02</span>
             <span class = 'text'>crew</span>
           </a>
         </li>
         <li class="nav-list-item">
-          <a href="technology.html" class="nav-side-link text-nav uppercase">
+          <a href="technology.html">
             <span class = 'num'>03</span>
             <span class = 'text'>technology</span>
           </a>
@@ -110,6 +114,8 @@
       </ul>
     </div>
   </aside>
+    
+  
   <script src = 'assets/home/homejs.js'></script>
 
 </header>
@@ -125,9 +131,11 @@
       Let’s face it; if you want to go to space, you might as well genuinely go to outer space and not hover kind of on the edge of it. Well sit back, and relax because we’ll give you a truly out of this world experience!
     </div>
   </div>
-  <div class = 'explore'>
+  <div class = 'explore-container'>
+  <button class = 'explore'>
     explore
-  </div>
+  </button>
+</div>
 </section>
 </body>
 </html>
