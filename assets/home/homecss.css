@@ -222,12 +222,7 @@ html, body{
   .explore{
   min-width: 125px;
   min-height:125px;
-  max-width: 125px;
-  max-height:125px;
   font-size: 20px;
-  }
-  .text-block-space{
-    margin-top: 30vh;
   }
   body{
     background-image: url('../home/background-home-desktop.jpg');
@@ -245,7 +240,4 @@ html, body{
   #face{
     font-size: 12px;
   }
-   .text-block-space{
-    margin-top: 150px
-  } 
 }
