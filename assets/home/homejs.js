@@ -17,3 +17,4 @@ closed.addEventListener('click', () =>{
   nav.id = ''
   num.style.visibility = 'hidden'
 })}
+

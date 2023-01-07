@@ -1,6 +1,6 @@
 
   .inspector-nav{
-    position: absolute;
+    position:  absolute;
     width: 100%;
     height: 96px;
     display: flex;
@@ -161,7 +161,7 @@
     }
     .inspector-nav{
       margin-left: auto; 
-      margin-top: auto;
+      /* margin-top: auto; */
       justify-content: space-around;
       max-width: 100%;
       padding-left: 20px;
