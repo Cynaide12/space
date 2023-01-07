@@ -1,0 +1,160 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel = 'stylesheet' href = 'assets/navigation/nav.css'>
+  <link rel = 'stylesheet' href = 'assets/destination/destination.css' type = 'text/css'>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+ 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  
+    <div class = 'inspector-nav'>
+      <a class = 'img-nav' href = 'index.html'>
+        <img src = 'assets\shared\logo.svg'>
+      </a>
+      <div class = 'nav-line'>
+      </div>
+      <div class = 'text-block'>
+      <ul class = 'text-block-ul'>
+        <li class = 'text-block-li'>
+          <a href = 'index.html'>
+            <span class = 'num'>00</span>
+            <span class = 'text'> home</span>
+          </a>
+        </li>
+        <li class = 'active'>
+          <a href = 'destination-moon.html'>
+            <span class = 'num'>01</span>
+            <span class = 'text'> destination</span>
+          </a>
+        </li>
+        <li class = 'text-block-li'>
+        <a href = 'crew-commander.html'>
+          <span class = 'num'>02</span>
+          <span class = 'text'> crew</span>
+        </a>
+      </li>
+        <li class = 'text-block-li'>
+          <a href = 'technology-vehicle.html'>
+            <span class = 'num'>03</span>
+            <span class = 'text'> tecnhology</span>
+          </a>
+        </li>
+      </ul>
+    </div>  
+
+    <button class  = 'nav-toggle'>
+      <img 
+      src = '.\assets\shared\icon-hamburger.svg'
+      width="24"
+      height="21">
+    </button>
+
+  </div>
+   <aside>
+    <div class="nav-side">
+      <button id="navClose" class="closed">
+        <img
+          src="./assets/shared/icon-close.svg"
+          alt="Close"
+          width="19"
+          height="19"
+        />
+      </button>
+
+      <ul class="nav-side-list">
+        <li class="nav-list-item">
+          <a
+            href="index.html"
+            
+          >
+            <span class = 'num'>00</span> 
+            <span class = 'text'>home</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="destination.html">
+            <span class = 'num'>01</span>
+            <span class = 'text'>destination</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="crew.html">
+            <span class = 'num'>02</span>
+            <span class = 'text'>crew</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="technology.html">
+            <span class = 'num'>03</span>
+            <span class = 'text'>technology</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside>
+    
+  
+  <script src = 'assets/home/homejs.js'></script>
+
+
+<body>
+<div class = 'menu'>
+  <div class = 'pick'>
+  <span id = 'num'>01</span>
+  Pick your destination
+  </div>
+  <div class = 'img-container'>
+  <img src = 'assets\destination\image-moon.png'>
+
+  </div>
+  <div class = 'planet-container'>
+    <div class = 'list-item-planet'>
+      <div class = 'list-text-div list-active' id = 'moon'>
+  <span class = 'list-text'>Moon</span>
+    </div>
+    <div class = 'list-text-div' id = 'mars'>
+  <span class = 'list-text'>Mars</span>
+  </div>
+  <div class = 'list-text-div' id = 'europa'>
+  <span class = 'list-text'>Europa</span>
+  </div>
+  <div class = 'list-text-div' id = 'titan'>
+  <span class = 'list-text' id = 'titan'>Titan</span>
+  </div>
+  </div>
+  <p class = 'list-moon' data-show-info="name">Moon</p>
+  <div class = 'our-planet'>
+  <span data-show-info="text" class = 'SYKA'>See our planet as you’ve never seen it before. A perfect relaxing trip away to help 
+  regain perspective and come back refreshed. While you’re there, take in some history 
+  by visiting the Luna 2 and Apollo 11 landing sites.</span>
+  </div>
+  <div class = 'distance-inspector'>
+  <span class = 'distance-text' data-distance-text="distanceText">Avg. distance</span>
+  <span class = 'distance' data-show-info = 'distance'>384,400 km</span>
+
+  <span class = 'time-text' data-time-text = 'timeText'>Est. travel time</span>
+  <span class = 'time' data-show-info = 'time'>3 days</span>
+  </div>
+</div>
+<script src = 'assets/destination/destination.js'></script>
+</div>
+</body>
+</html>
