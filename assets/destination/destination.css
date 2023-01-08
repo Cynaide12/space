@@ -197,6 +197,9 @@ opacity: 0.25;
     place-self: center;
     padding:0px;
   }
+  .img-nav{
+    margin-top: 40px;
+  }
   .planet-container{
     grid-column: 1;
     grid-row: 3;
@@ -239,6 +242,19 @@ opacity: 0.25;
 @media screen and (max-width:490px){
   .menu{
     min-width: 100vw
+  }
+  .nav-side{
+    height: 100%
+  }
+  .inspector-nav{
+    width:80vw;
+    display:none;
+  }
+  aside{
+    height: 150px;
+  }
+  .nav-toggle{
+    margin-top: 75px;
   }
   .pick{
     place-self: center  ;
