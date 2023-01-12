@@ -8,9 +8,10 @@ body{
   display:grid;
   grid-template-rows: auto, auto;
   margin: 0px;
-  
 }
-/* то копировать дальше */
+html{
+  overflow:auto
+}
 header{
   height:fit-content
 }
@@ -18,7 +19,6 @@ header{
   position: relative;
   grid-row: 1;
 }
-/* выше копировать */
 .menu{
   display:grid;
   grid-template-columns: repeat(2, 1fr);
