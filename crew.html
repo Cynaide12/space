@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel = 'stylesheet' href = 'assets/navigation/nav.css'>
+  <link rel = 'stylesheet' href = 'assets/crew/crew.css' type = 'text/css'>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+ 
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+
+  <!-- navigation -->
+  <nav>
+    <div class = 'inspector-nav'>
+      <a class = 'img-nav' href = 'index.html'>
+        <img src = 'assets\shared\logo.svg'>
+      </a>
+      <div class = 'nav-line'>
+      </div>
+      <div class = 'text-block'>
+      <ul class = 'text-block-ul'>
+        <li class = 'text-block-li'>
+          <a href = 'index.html'>
+            <span class = 'num'>00</span>
+            <span class = 'text'> home</span>
+          </a>
+        </li>
+        <li class = 'text-block-li'>
+          <a href = 'destination.html'>
+            <span class = 'num'>01</span>
+            <span class = 'text'> destination</span>
+          </a>
+        </li>
+        <li class = 'active'>
+        <a href = 'crew.html'>
+          <span class = 'num'>02</span>
+          <span class = 'text'> crew</span>
+        </a>
+      </li>
+        <li class = 'text-block-li'>
+          <a href = 'technology.html'>
+            <span class = 'num'>03</span>
+            <span class = 'text'> tecnhology</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <button class  = 'nav-toggle'>
+      <img 
+      src = '.\assets\shared\icon-hamburger.svg'
+      width="24"
+      height="21">
+    </button> 
+
+    <aside>
+      <div class="nav-side">
+        <button id="navClose" class="closed">
+          <img
+            src="./assets/shared/icon-close.svg"
+            alt="Close"
+            width="19"
+            height="19"
+          />
+        </button>
+  
+        <ul class="nav-side-list">
+          <li class="nav-list-item">
+            <a href="index.html"  >
+              <span class = 'num'>00</span> 
+              <span class = 'text'>home</span>
+            </a>
+          </li>
+          <li class="nav-list-item">
+            <a href="destination.html">
+              <span class = 'num'>01</span>
+              <span class = 'text'>destination</span>
+            </a>
+          </li>
+          <li class="nav-list-item">
+            <a href="crew.html">
+              <span class = 'num'>02</span>
+              <span class = 'text'>crew</span>
+            </a>
+          </li>
+          <li class="nav-list-item">
+            <a href="technology.html">
+              <span class = 'num'>03</span>
+              <span class = 'text'>technology</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside> 
+    <script src = 'assets/navigation/homejs.js'></script>
+
+    </div> 
+
+  </div>
+</nav>
+<!-- end navigation -->
+<div class = 'crew'>
+
+<div class = 'meet'>
+  <span class = 'num-crew'>02</span>
+  <span style = 'margin-left: 10px'>Meet your crew</span>
+</div>
+<div class = 'info-text-container'>
+  <div class = 'rank' data-info = 'rank'>Commander</div>
+  <div class = 'name' data-info = 'name'>Douglas Hurley</div>
+  <div class = 'info-text' data-info = 'info'>Douglas Gerald Hurley is an American engineer, former Marine Corps pilot 
+  and former NASA astronaut. He launched into space for the third time as 
+  commander of Crew Dragon Demo-2.</div>
+  </div>
+  <div class = 'img-human'>
+    <img src = 'assets/crew/image-douglas-hurley.png' data-info = 'img'>
+</div>
+<div class = 'button-container'>
+  <button class = 'list-button list-active'></button>
+  <button class = 'list-button'></button>
+  <button class = 'list-button'></button>
+  <button class = 'list-button'></button>
+</div>
+<script src = 'assets/crew/crew.js'></script>
+</div>
+</body>
+</html>
