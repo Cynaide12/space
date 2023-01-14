@@ -1,0 +1,123 @@
+body{
+  background-image: url('background-technology-desktop.jpg');
+  background-size: cover;
+  background-position: center;
+  display:grid;
+  grid-template-columns: 1fr, auto;
+  min-height: 100vh;
+  color:white;
+  margin: 0px;
+}
+html{
+  overflow-y: auto;
+  overflow-x:hidden
+}
+.inspector-nav{
+  grid-row: 1;
+  position: relative;
+}
+.technology{
+  grid-row: 2;
+  display:grid;
+  grid-template-columns: auto repeat(2, 1fr);
+  grid-template-rows: repeat(2, auto);
+  margin-bottom: 100px;
+  padding-left: 150px;
+}
+.launch{
+  grid-row:1;
+  grid-column: 1/ span 2;
+  width:fit-content;
+  height:fit-content;
+  font-size: 28px;
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 34px;
+  letter-spacing: 4.725px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.launch span{
+  mix-blend-mode: normal;
+  opacity: 0.25; 
+}
+.technology-text-container{
+  grid-row: 2;
+  grid-column: 2;
+  display:flex;
+  flex-direction:column;
+  color: #D0D6F9;
+  font-style: normal;
+  font-weight: 400;
+  max-width:480px;
+  max-height: 303px;
+  margin-left: 50px;
+}
+.terminology{
+  font-family: 'Barlow Condensed';
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 2.7px;
+  text-transform: uppercase;
+}
+.name-stage{
+  font-family: 'Bellefair';
+  font-size: 56px;
+  line-height: 64px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  width:fit-content;
+  /* white-space: nowrap; */
+}
+.description{
+  font-family: 'Barlow';
+  font-size: 18px;
+  line-height: 32px;
+  text-align: start;
+  max-width:444px;
+}
+.button-container{
+  grid-row: 2;
+  grid-column: 1;
+  width: fit-content;
+  height: 310px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between
+}
+.button-number{
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  cursor:pointer;
+  transition: 300ms;
+  color: #FFFFFF;
+  font-size: 32px;
+}
+.button-number:hover{
+  background:white;
+  opacity:1;
+  transition: 300ms;
+  color: black;
+}
+.container-img{
+  grid-column: 3;
+  grid-row: 1/ span 2;
+  place-self: center;
+  /* width: 512px;
+  height: 527px; */
+  width: fit-content;
+  height: fit-content;
+  display:inherit;
+  margin-left: auto;
+}
+.button-active{
+  background: white;
+  color: black;
+}
