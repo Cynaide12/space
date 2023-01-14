@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel = 'stylesheet' href = 'assets/navigation/nav.css'>
+  <link rel = 'stylesheet' href = 'assets/technology/technology.css'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+<nav>
+  <div class = 'inspector-nav'>
+    <a class = 'img-nav' href = 'index.html'>
+      <img src = 'assets\shared\logo.svg'>
+    </a>
+    <div class = 'nav-line'>
+    </div>
+    <div class = 'text-block'>
+    <ul class = 'text-block-ul'>
+      <li class = 'text-block-li'>
+        <a href = 'index.html'>
+          <span class = 'num'>00</span>
+          <span class = 'text'> home</span>
+        </a>
+      </li>
+      <li class = 'text-block-li'>
+        <a href = 'destination.html'>
+          <span class = 'num'>01</span>
+          <span class = 'text'> destination</span>
+        </a>
+      </li>
+      <li class = 'text-block-li'>
+      <a href = 'crew.html'>
+        <span class = 'num'>02</span>
+        <span class = 'text'> crew</span>
+      </a>
+    </li>
+      <li class = 'active'>
+        <a href = 'technology.html'>
+          <span class = 'num'>03</span>
+          <span class = 'text'> tecnhology</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+  <button class  = 'nav-toggle'>
+    <img 
+    src = '.\assets\shared\icon-hamburger.svg'
+    width="24"
+    height="21">
+  </button> 
+
+  <aside>
+    <div class="nav-side">
+      <button id="navClose" class="closed">
+        <img
+          src="./assets/shared/icon-close.svg"
+          alt="Close"
+          width="19"
+          height="19"
+        />
+      </button>
+
+      <ul class="nav-side-list">
+        <li class="nav-list-item">
+          <a href="index.html"  >
+            <span class = 'num'>00</span> 
+            <span class = 'text'>home</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="destination.html">
+            <span class = 'num'>01</span>
+            <span class = 'text'>destination</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="crew.html">
+            <span class = 'num'>02</span>
+            <span class = 'text'>crew</span>
+          </a>
+        </li>
+        <li class="nav-list-item">
+          <a href="technology.html">
+            <span class = 'num'>03</span>
+            <span class = 'text'>technology</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </aside> 
+  <script src = 'assets/navigation/homejs.js'></script>
+
+  </div> 
+
+</div>
+</nav>
+<div class = 'technology'>
+  <div class = 'launch'>
+    <span>03</span>
+    Space launch 101
+  </div>
+  <div class = 'button-container'>
+   <div class = 'button-number button-active'>1</div>
+   <div class = 'button-number'>2</div>
+   <div class = 'button-number'>3</div>
+    
+  </div>
+  <div class = 'technology-text-container'>
+    <div class = 'terminology'>
+    The terminology...
+    </div>
+    <div class ='name-stage'>
+    Launch vehicle
+    </div>
+    <div class = 'description'>
+    A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a payload from Earth's surface to space, usually to Earth orbit or beyond. Our WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall, it's quite an awe-inspiring sight on the launch pad!
+    </div>
+  </div>
+  <div class = 'container-img'>
+    <img src = 'assets/technology/image-launch-vehicle-portrait.jpg'>
+  </div>
+</div>
+<script src = 'assets/technology/technology.js' type = 'module'></script>
+</body>
+</html>
