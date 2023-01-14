@@ -177,11 +177,12 @@ body{
     background-image: url('background-technology-mobile.jpg');
     padding:0px;
   }
+  .technology{
+    grid-template-rows: repeat(4, auto);
+    row-gap:50px;
+  }
   .inspector-nav{
     margin:0px;
-  }
-  .nav-side{
-    height:115vh
   }
   .landscape img{
     width:100%;
@@ -191,7 +192,8 @@ body{
     height:100%
   }
   .landscape{
-    height:250px;
+    height:170px;
+    width:375px;
   }
   .technology-text-container{
     align-items:center;
@@ -199,18 +201,35 @@ body{
   }
   .launch{
     text-align:center;
-    width:100%
+    width:100%;
+    font-size:16px;
   }
   .description{
     text-align:center;
-    max-width:100%
+    max-width:100%;
+    font-size:15px;
   }
   .name-stage{
     text-align:center;
   }
   .nav-side{
     top:0;
-    bottom:0
+    bottom:0;
+    height:115vh
   }
-
+  .terminology{
+    font-size:14px;
+  }
+  .name-stage{
+    font-size: 24px;
+  }
+  .button-number{
+    width:40px;
+    height:40px;
+    font-size:16px;
+    margin-left:10px;
+  }
+  .button-container{
+    margin-right:10px;
+  }
 }
